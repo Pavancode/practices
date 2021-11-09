@@ -7,6 +7,7 @@ public class LinearSearch {
     public static void main(String[] args) {
         int[] arr = {10,52,45,45,487,454,88,784};
         searching(arr);
+
     }
 
     public static void searching(int[] a) {
@@ -25,6 +26,7 @@ public class LinearSearch {
         if (b!= true){
             System.out.println("oops sorry "+ser+" is not in array");
         }
+         in.close();
     }
 
 }
